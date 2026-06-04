@@ -1,6 +1,6 @@
 cask "codexswitch" do
   version "0.1.0"
-  sha256 "d13491cf48618d8f5bef45be991b6da22e7ecb322a0cc9f6b39398e173fb4cca"
+  sha256 "9121b7abae10c3d911ae0838219d47719912a4df3219a638c2429d962879d336"
 
   url "https://github.com/eust-w/homebrew-tap/releases/download/codexswitch-preview-#{version}/codexswitch_#{version}_arm64.dmg"
   name "codexswitch"
