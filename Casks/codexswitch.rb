@@ -2,10 +2,10 @@ cask "codexswitch" do
   version "0.1.0"
   sha256 "d13491cf48618d8f5bef45be991b6da22e7ecb322a0cc9f6b39398e173fb4cca"
 
-  url "https://github.com/eust-w/homebrew-tap/releases/download/codexswitch-preview-0.1.0/codexswitch_0.1.0_arm64.dmg"
+  url "https://github.com/eust-w/homebrew-tap/releases/download/codexswitch-preview-#{version}/codexswitch_#{version}_arm64.dmg"
   name "codexswitch"
   desc "Local provider switching and proxy routing for Claude Code, Codex, and Gemini"
-  homepage "https://github.com/eust-w/codexswitch"
+  homepage "https://github.com/eust-w/homebrew-tap"
 
   depends_on arch: :arm64
   depends_on macos: ">= :monterey"
